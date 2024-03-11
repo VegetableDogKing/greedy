@@ -31,8 +31,6 @@ import numpy as np
 from datasets import load_dataset, load_metric
 
 import transformers
-import sys
-sys.path.insert(0, 'models')
 
 from transformers import (
     AutoConfig,

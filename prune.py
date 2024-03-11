@@ -25,7 +25,6 @@ from dataclasses import dataclass, field
 from typing import Optional
 
 import torch
-print(torch.version.cuda)
 from torch import nn
 from torch.nn import CrossEntropyLoss, MSELoss
 import torch.nn.functional as F
